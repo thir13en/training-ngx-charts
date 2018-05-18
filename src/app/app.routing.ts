@@ -13,6 +13,7 @@ import { Slide9Component } from './slides/slide9/slide9.component';
 import { Slide10Component } from './slides/slide10/slide10.component';
 import { Slide11Component } from './slides/slide11/slide11.component';
 import { Slide12Component } from './slides/slide12/slide12.component';
+import {Slide13Component} from './slides/slide13/slide13.component';
 
 const routes: Routes = [
   {
@@ -53,6 +54,9 @@ const routes: Routes = [
   },
   {
     path: '12', component: Slide12Component
+  },
+  {
+    path: '13', component: Slide13Component
   }
 ];
 

@@ -1,15 +1,67 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+// import * as d3 from 'd3-shape';
+
 
 @Component({
   selector: 'app-slide13',
   templateUrl: './slide13.component.html',
   styleUrls: ['./slide13.component.sass']
 })
-export class Slide13Component implements OnInit {
+export class Slide13Component {
 
-  constructor() { }
+  // fakeData = [
+  //   {
+  //     'name': 'Germany',
+  //     'series': [
+  //       {
+  //         'name': 'Charmander',
+  //         'value': 7300000
+  //       },
+  //       {
+  //         'name': 'Bulbasaur',
+  //         'value': 300000
+  //       },
+  //       {
+  //         'name': 'Mewtwo',
+  //         'value': 8940000
+  //       },
+  //       {
+  //         'name': 'Pikachu',
+  //         'value': 3000009
+  //       },
+  //       {
+  //         'name': 'Perl6',
+  //         'value': 8940000
+  //       }
+  //     ]
+  //   }
+  // ];
 
-  ngOnInit() {
-  }
+
+  // view: any[] = [1800, 700];
+
+  // options
+  // showXAxis = false;
+  // showYAxis = false;
+  // gradient = true;
+  // showLegend = false;
+  // showXAxisLabel = false;
+  // xAxisLabel = 'Pokemon';
+  // showYAxisLabel = true;
+  // yAxisLabel = 'Utility';
+  // curve = d3.curveCardinal.tension(.3);
+  //
+  // colorScheme = {
+  //   domain: [ '#FFF' ]
+  // };
+
+  // line, area
+  // autoScale = true;
+
+  constructor() {}
+
+  // onSelect(event) {
+  //   console.log(event);
+  // }
 
 }
