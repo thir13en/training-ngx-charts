@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { FlexLayoutModule } from '@angular/flex-layout';
-// import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule, MatDividerModule, MatListModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
@@ -24,7 +24,7 @@ import { Slide11Component } from './slides/slide11/slide11.component';
 import { Slide12Component } from './slides/slide12/slide12.component';
 import { Slide13Component } from './slides/slide13/slide13.component';
 
-// import { NgxChartsModule } from '@swimlane/ngx-charts';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 @NgModule({
   declarations: [
@@ -54,8 +54,8 @@ import { Slide13Component } from './slides/slide13/slide13.component';
     MatButtonModule,
     MatListModule,
     MatDividerModule,
-    // BrowserAnimationsModule,
-    // NgxChartsModule
+    BrowserAnimationsModule,
+    NgxChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

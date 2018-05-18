@@ -7,7 +7,7 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./navigation.component.sass']
 })
 export class NavigationComponent {
-  currentSlide = 1;
+  currentSlide = 13;
 
   constructor( private route: ActivatedRoute, private router: Router ) {
     this.router.navigate( [ this.currentSlide ] );
