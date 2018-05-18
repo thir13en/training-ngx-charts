@@ -1,11 +1,14 @@
-import {RouterModule, Routes} from '@angular/router';
+import { ModuleWithProviders } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
-import { HeaderComponent } from './header/header.component';
-import {ModuleWithProviders} from '@angular/core';
+import { Slide1Component } from './slides/slide1/slide1.component';
 
 const routes: Routes = [
   {
-    path: '1', component: HeaderComponent
+    path: '', redirectTo: '1', pathMatch: 'full'
+  },
+  {
+    path: '1', component: Slide1Component
   }
 ];
 
